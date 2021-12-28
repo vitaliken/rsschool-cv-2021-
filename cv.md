@@ -24,14 +24,14 @@ Completing tasks:
 * work on the specification
 * showing demonstration of completed tasks to the customer
 
-## Code Example
+## Code example
 ```
 function multiply(a, b){
 return a * b;
 }
 ```
 
-## EDUCATION
+## Education
 ### QA Engineer - QA ACADEMY
 December 2019 to January 2020
 **Software testing basics**
