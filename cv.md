@@ -30,6 +30,13 @@ function multiply(a, b){
 return a * b;
 }
 ```
+## Courses completed
+1. [WEB-разработчик 2021](https://www.udemy.com/certificate/UC-e37c9781-7b1d-4135-ac33-f3200d84dcdf/)
+2. [SQL для начинающих: с нуля до сертификата Oracle](https://www.udemy.com/certificate/UC-41c758f8-ec4f-4538-82dc-ea6360a3bebb/)
+3. [Основы GIT](https://stepik.org/cert/785638)
+4. [Введение в Linux](https://stepik.org/cert/382378)
+5. [Введение в архитектуру ЭВМ. Элементы операционных систем.](https://stepik.org/cert/1017884)
+
 
 ## Education
 ### QA Engineer - QA ACADEMY
@@ -37,17 +44,17 @@ December 2019 to January 2020
 **Software testing basics**
 
 ### Master of Engineering
-BELARUSIAN STATE AGRICULTURAL ACADEMY
+Belarusian State Agricultural Academy
 2010 to 2016
 
 **The Faculty of Agriculturals Mechanization (Logistics Support)**
 
 ### Specialist
-BELARUSIAN STATE AGRICULTURAL ACADEMY
+Belarusian State Agricultural Academy
 2012 to 2015
 
 **The Faculty of economics (Enterprise Management)**
 
 ## Languages
-* **English** - A1
+* **English** - A2
 * **Russian** - native speaker
