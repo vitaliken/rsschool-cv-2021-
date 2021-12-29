@@ -1,0 +1,48 @@
+.main {
+    &-about {
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: $main-color-card;
+        border-radius: 6px;
+        box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+        p {
+            margin: 0;
+        }
+        h2 {
+            font-size: 30px;
+            color: $main-color;
+        }
+        h3 {
+            font-size: 28px;
+            color: $main-color;
+        }
+    }
+    &-experiences {
+        
+        margin-top: 35px;
+        padding: 20px;
+        background-color: $main-color-card;
+        border-radius: 6px;
+        box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+        &__list{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            list-style-type: square;
+            align-items: flex-start;
+        }
+        h2 {
+            font-size: 30px;
+            color: $main-color;
+            margin: 0;
+        }
+        h3 {
+            font-size: 24px;
+            color: $main-color;
+            margin: 0;
+        }
+    }
+
+}

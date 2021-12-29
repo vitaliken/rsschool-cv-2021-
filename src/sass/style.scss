@@ -12,6 +12,8 @@ body {
 }
 
 $main-color: #222235;
+$main-color-card: rgb(255, 183, 90);
 
 @import "blocks/container";
 @import "blocks/header";
+@import "blocks/main";

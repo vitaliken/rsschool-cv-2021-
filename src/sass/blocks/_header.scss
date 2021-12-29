@@ -2,17 +2,16 @@
     display: flex;
     flex-direction: column;
     &-menu {
-        padding: 20px;
+        padding: 20px 0;
         &__list {
             display: flex;
             list-style-type: none;
             justify-content: space-around;
-            font-size: 16px;
             align-items: center;
             height: 40px;
-            background-color: rgb(255, 180, 82);
+            background-color: $main-color-card;
             border-radius: 6px;
-            box-shadow: 20px 6px 1px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
             a {
                 color: $main-color;
                 text-decoration: none;
@@ -28,28 +27,27 @@
         }
     }
     &-info {
-        padding: 0 20px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
         &__photo{
             img {
                 position: relative;
                 height: 277px;
                 border-radius: 6px;
-                box-shadow: 20px 6px 1px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
             }
         }
         &__name {
             display: flex;
             flex-direction: column;
-            background: rgb(255, 180, 82);
-            width: 450px;
+            background: $main-color-card;
+            width: 493px;
             padding: 20px;
             text-align: end;
             border-radius: 6px;
-            box-shadow: 20px 6px 1px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
             h1 {
                 font-size: 36px;
                 color: $main-color;
