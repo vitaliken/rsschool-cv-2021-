@@ -5,8 +5,8 @@
 * **GitHub:** [vitaliken](https://github.com/vitaliken)
 
 ## About Me
-Hello everyone! My name is Vitaliy.
-I am 28 years old and have been working as a software tester for 2 years. I want to try myself as a web developer, so I signed up for a course at RS School.
+Hello everyone! My name is Vitali.
+I am 28 years old and I have been working as a software tester for 2 years. I want to try myself as a web developer, so I signed up for a course at RS School.
 
 ## Experiences
 ### Quality Assurance Test Engineer
@@ -39,7 +39,7 @@ return a * b;
 
 
 ## Education
-### QA Engineer - QA ACADEMY
+### QA Engineer - QA Academy
 December 2019 to January 2020
 **Software testing basics**
 

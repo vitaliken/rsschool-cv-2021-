@@ -12,11 +12,32 @@ html {
   }
 
 body {
-    background-image: radial-gradient(#888888, #161616);
+    background-image: radial-gradient(#7b7b7b, #212121);
 }
 
 $main-color: #222235;
-$main-color-card: rgb(255, 183, 90);
+$main-color-card: rgb(255, 156, 27);
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $main-color-card;
+    background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
+                        transparent 25%,
+                        transparent 50%,
+                        rgba(255, 255, 255, .25) 50%,
+                        rgba(255, 255, 255, .25) 75%,
+                        transparent 75%,
+                        transparent);
+}
 
 @import "blocks/container";
 @import "blocks/header";
