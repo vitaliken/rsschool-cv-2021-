@@ -1,0 +1,198 @@
+.main {
+    &-about {
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: $main-color-card;
+        border-radius: 6px;
+        box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+        p {
+            margin: 0;
+        }
+        h2 {
+            font-size: 30px;
+            color: $main-color;
+            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+        }
+        h3 {
+            font-size: 28px;
+            color: $main-color;
+            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+        }
+    }
+    &-explang {
+        display: flex;
+        &__experiences {
+            margin-top: 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            &list{
+                padding-left: 20px;
+                display: flex;
+                flex-direction: column;
+                list-style-type: square;
+                align-items: flex-start;
+            }
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            h3 {
+                font-size: 24px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            .detail {
+                font-size: 14px;
+                font-weight: normal;
+            }
+            p {
+                margin-top: 15px;
+            }
+        }
+        &__lang {
+            flex-wrap: wrap;
+            margin: 35px 0 0 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin-top: 15px;
+                padding-left: 20px;
+                list-style-type: square;
+                li {
+                    margin-bottom: 0px;
+                    span {
+                        font-weight: 700;
+                    }
+                    .detail {
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+    &-code {
+        display: flex;
+        &__codeexample {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            pre {
+                display: flex;
+
+                background-color: $main-color;
+                color: $main-color-card;
+                border-radius: 6px;
+                code {
+                    font-size: 16px;
+                    .function {
+                        color: 	#76ff7b;
+                    }
+                    .multi {
+                        color: 	#ff79fb;
+                    }
+                    .mark {
+                        color: 	#e5ff00;
+                    }
+                    span {
+                        color: 	#ffffff;
+                    }
+                }
+            }
+        }
+        &__course {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 35px 0 0 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            ol {
+                padding: 10px 0 0 20px;
+                li {
+                    a {
+                        color: $main-color;
+                        text-decoration: none;
+                        background-image: linear-gradient(#000, #000);
+                        background-position: 50% 100%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 2px;
+                        transition: background-size .3s;
+                    }
+                    a:hover {
+                        background-size: 100% 2px;
+                    }
+                }
+            }
+        }
+    }
+    &-educlang {
+        &__educ{
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+                margin: 0;
+            }
+            ul {
+                padding-left: 20px;
+                list-style-type: square;
+                li {
+                    margin-bottom: 10px;
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    h3 {
+                        margin: 0;
+                        font-size: 24px;
+                        color: $main-color;
+                        text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+                    }
+                }
+            }
+        }
+    }
+}

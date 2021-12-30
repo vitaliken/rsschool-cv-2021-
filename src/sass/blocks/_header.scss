@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    &-menu {
+        padding: 35px 0;
+        &__list {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            height: 40px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            
+            a {
+                color: $main-color;
+                text-decoration: none;
+                background-image: linear-gradient(#000, #000);
+                background-position: 50% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+            }
+            a:hover {
+                background-size: 100% 2px;
+            }
+        }
+    }
+    &-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        &__photo{
+            img {
+                position: relative;
+                height: 277px;
+                border-radius: 6px;
+                box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            }
+        }
+        &__name {
+            display: flex;
+            flex-direction: column;
+            background: $main-color-card;
+            width: 493px;
+            padding: 20px;
+            text-align: end;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h1 {
+                font-size: 36px;
+                color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            p {
+                font-size: 22px;
+                font-weight: 700;
+                color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+        }
+        .contact {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            a {
+                padding-top: 8px;
+                color: $main-color;
+                text-decoration: none;
+                font-size: 16px;
+                img {
+                    width: 22px;
+                }
+            }
+        }
+    }
+}
