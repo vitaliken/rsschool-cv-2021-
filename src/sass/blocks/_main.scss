@@ -21,30 +21,71 @@
             text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
         }
     }
-    &-experiences {
-        margin-top: 35px;
-        padding: 20px;
-        background-color: $main-color-card;
-        border-radius: 6px;
-        box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
-        &__list{
-            padding-left: 20px;
-            display: flex;
-            flex-direction: column;
-            list-style-type: square;
-            align-items: flex-start;
+    &-explang {
+        display: flex;
+        &__experiences {
+            margin-top: 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            &list{
+                padding-left: 20px;
+                display: flex;
+                flex-direction: column;
+                list-style-type: square;
+                align-items: flex-start;
+            }
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            h3 {
+                font-size: 24px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            .detail {
+                font-size: 14px;
+                font-weight: normal;
+            }
+            p {
+                margin-top: 15px;
+            }
         }
-        h2 {
-            font-size: 30px;
-            color: $main-color;
-            margin: 0;
-            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
-        }
-        h3 {
-            font-size: 24px;
-            color: $main-color;
-            margin: 0;
-            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+        &__lang {
+            flex-wrap: wrap;
+            margin: 35px 0 0 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin-top: 15px;
+                padding-left: 20px;
+                list-style-type: square;
+                li {
+                    margin-bottom: 0px;
+                    span {
+                        font-weight: 700;
+                    }
+                    .detail {
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+                }
+            }
         }
     }
     &-code {
@@ -119,5 +160,39 @@
             }
         }
     }
-
+    &-educlang {
+        &__educ{
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+                margin: 0;
+            }
+            ul {
+                padding-left: 20px;
+                list-style-type: square;
+                li {
+                    margin-bottom: 10px;
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    h3 {
+                        margin: 0;
+                        font-size: 24px;
+                        color: $main-color;
+                        text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+                    }
+                }
+            }
+        }
+    }
 }
