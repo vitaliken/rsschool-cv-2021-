@@ -13,14 +13,15 @@
         h2 {
             font-size: 30px;
             color: $main-color;
+            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
         }
         h3 {
             font-size: 28px;
             color: $main-color;
+            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
         }
     }
     &-experiences {
-        
         margin-top: 35px;
         padding: 20px;
         background-color: $main-color-card;
@@ -37,11 +38,85 @@
             font-size: 30px;
             color: $main-color;
             margin: 0;
+            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
         }
         h3 {
             font-size: 24px;
             color: $main-color;
             margin: 0;
+            text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+        }
+    }
+    &-code {
+        display: flex;
+        &__codeexample {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            pre {
+                display: flex;
+
+                background-color: $main-color;
+                color: $main-color-card;
+                border-radius: 6px;
+                code {
+                    font-size: 16px;
+                    .function {
+                        color: 	#76ff7b;
+                    }
+                    .multi {
+                        color: 	#ff79fb;
+                    }
+                    .mark {
+                        color: 	#e5ff00;
+                    }
+                    span {
+                        color: 	#ffffff;
+                    }
+                }
+            }
+        }
+        &__course {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 35px 0 0 35px;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                margin: 0;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+            }
+            ol {
+                padding: 10px 0 0 20px;
+                li {
+                    a {
+                        color: $main-color;
+                        text-decoration: none;
+                        background-image: linear-gradient(#000, #000);
+                        background-position: 50% 100%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 2px;
+                        transition: background-size .3s;
+                    }
+                    a:hover {
+                        background-size: 100% 2px;
+                    }
+                }
+            }
         }
     }
 

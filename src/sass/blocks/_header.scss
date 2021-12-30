@@ -51,11 +51,13 @@
             h1 {
                 font-size: 36px;
                 color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
             }
             p {
                 font-size: 22px;
                 font-weight: 700;
                 color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
             }
         }
         .contact {
