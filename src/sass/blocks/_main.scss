@@ -29,12 +29,17 @@
             background-color: $main-color-card;
             border-radius: 6px;
             box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .skills {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
             &list{
                 padding-left: 20px;
-                display: flex;
-                flex-direction: column;
                 list-style-type: square;
-                align-items: flex-start;
             }
             h2 {
                 font-size: 30px;
@@ -160,7 +165,8 @@
             }
         }
     }
-    &-educlang {
+    &-educproj {
+        display: flex;
         &__educ{
             margin-top: 35px;
             display: flex;
@@ -180,6 +186,52 @@
                 list-style-type: square;
                 li {
                     margin-bottom: 10px;
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    h3 {
+                        margin: 0;
+                        font-size: 24px;
+                        color: $main-color;
+                        text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+                    }
+                }
+            }
+        }
+        &__proj{
+            width: 50%;
+            margin: 35px 0 0 35px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: $main-color-card;
+            border-radius: 6px;
+            box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+            h2 {
+                font-size: 30px;
+                color: $main-color;
+                text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+                margin: 0;
+            }
+            ul {
+                padding-left: 20px;
+                list-style-type: square;
+                li {
+                    margin-bottom: 10px;
+                    a {
+                        color: $main-color;
+                        text-decoration: none;
+                        background-image: linear-gradient(#000, #000);
+                        background-position: 50% 100%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 2px;
+                        transition: background-size .3s;
+                    }
+                    a:hover {
+                        background-size: 100% 2px;
+                    }
                     p {
                         margin: 0;
                         font-size: 14px;
